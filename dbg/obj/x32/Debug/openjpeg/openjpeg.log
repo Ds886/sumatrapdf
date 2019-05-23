@@ -1,0 +1,29 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: Support for targeting Windows XP is deprecated and will not be present in future releases of Visual Studio. Please see https://go.microsoft.com/fwlink/?linkid=2023588 for more information.
+  bio.c
+  cidx_manager.c
+  cio.c
+  dwt.c
+  event.c
+  function_list.c
+  image.c
+  invert.c
+  j2k.c
+  jp2.c
+  mct.c
+  mqc.c
+  openjpeg.c
+  opj_clock.c
+  opj_malloc.c
+  phix_manager.c
+  pi.c
+  ppix_manager.c
+  raw.c
+  t1.c
+  t1_generate_luts.c
+  t2.c
+  tcd.c
+  tgt.c
+  thix_manager.c
+  thread.c
+  tpix_manager.c
+  openjpeg.vcxproj -> d:\Media\myrepos\sumatrapdf\vs2017\..\dbg\openjpeg.lib

@@ -1,0 +1,17 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: Support for targeting Windows XP is deprecated and will not be present in future releases of Visual Studio. Please see https://go.microsoft.com/fwlink/?linkid=2023588 for more information.
+  jbig2.c
+  jbig2_arith.c
+  jbig2_arith_iaid.c
+  jbig2_arith_int.c
+  jbig2_generic.c
+  jbig2_halftone.c
+  jbig2_huffman.c
+  jbig2_image.c
+  jbig2_metadata.c
+  jbig2_mmr.c
+  jbig2_page.c
+  jbig2_refinement.c
+  jbig2_segment.c
+  jbig2_symbol_dict.c
+  jbig2_text.c
+  jbig2dec.vcxproj -> d:\Media\myrepos\sumatrapdf\vs2017\..\dbg\jbig2dec.lib

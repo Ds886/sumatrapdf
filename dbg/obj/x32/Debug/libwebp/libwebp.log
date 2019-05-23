@@ -1,0 +1,33 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: Support for targeting Windows XP is deprecated and will not be present in future releases of Visual Studio. Please see https://go.microsoft.com/fwlink/?linkid=2023588 for more information.
+  alpha.c
+  buffer.c
+  frame.c
+  idec.c
+  io.c
+  quant.c
+  tree.c
+  vp8.c
+  vp8l.c
+  webp.c
+  alpha_processing.c
+  alpha_processing_sse2.c
+  cpu.c
+  dec.c
+  dec_clip_tables.c
+  dec_sse2.c
+  lossless.c
+  lossless_sse2.c
+  upsampling.c
+  upsampling_sse2.c
+  yuv.c
+  yuv_sse2.c
+  bit_reader.c
+  color_cache.c
+  filters.c
+  huffman.c
+  quant_levels_dec.c
+  random.c
+  rescaler.c
+  thread.c
+  utils.c
+  libwebp.vcxproj -> d:\Media\myrepos\sumatrapdf\vs2017\..\dbg\libwebp.lib
