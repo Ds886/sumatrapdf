@@ -3476,6 +3476,12 @@ static void FrameOnChar(WindowInfo* win, WPARAM key, LPARAM info = 0) {
         case 'z':
             win->ToggleZoom();
             break;
+        case '[':
+                win->AsFixed()->RotateBy(-90);
+            break;
+        case ']':
+                win->AsFixed()->RotateBy(90);
+            break;
         // per https://en.wikipedia.org/wiki/Keyboard_layout
         // almost all keyboard layouts allow to press either
         // '+' or '=' unshifted (and one of them is also often
@@ -4129,7 +4135,7 @@ static LRESULT FrameOnCommand(WindowInfo* win, HWND hwnd, UINT msg, WPARAM wPara
 }
 
 static LRESULT OnFrameGetMinMaxInfo(MINMAXINFO* info) {
-	//limit windows min width to prevent render loop when siderbar is too big 
+    // limit windows min width to prevent render loop when siderbar is too big
     info->ptMinTrackSize.x = MIN_WIN_DX - SIDEBAR_MIN_WIDTH + gGlobalPrefs->sidebarDx;
     info->ptMinTrackSize.y = MIN_WIN_DY;
     return 0;
